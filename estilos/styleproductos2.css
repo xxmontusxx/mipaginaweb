@@ -1,0 +1,560 @@
+@media (min-width:300px) and (max-width:480px)
+{
+*{
+    padding: 0;
+    margin:0;
+}
+/*BODY*/
+.fondo{
+    background-image: url(./imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CONTENEDOR DE MAIN*/    
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*CAJA1*/
+.caja1{
+    font-size: 20px;
+    width: 90%;
+    height: 70px;
+    margin-left: 15px;
+    padding-top: 50px;
+    color: rgba(128, 128, 128, 0.598);
+
+}
+/*CAJA2*/
+.caja2{
+    font-size: 30px;
+    margin-left: 15px;
+    width: 90%;
+}
+/*CAJA3*/
+.caja3{
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+}
+/*CAJA4*/
+.caja4{
+    width: 95%;
+    margin-left: 15px;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+/*CAJA5*/
+.caja5{
+    width: 95%;
+    margin-left: 15px;
+    font-size: 25px;
+    padding-top: 5px;
+}
+/*CAJA6*/
+.caja6{
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+/*CAJA7*/
+.caja7{
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 40px;
+}
+/*PARRAFO DE CAJA7*/
+.pdevolucion{
+    color: rgba(128, 128, 128, 0.598);
+}
+/*CAJA8*/
+.caja8{
+    width: 80%;
+    margin-left: 15px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+
+}/*CAJA9*/
+.caja9{
+    width: 100%;
+    padding-top: 15px;
+}
+/*BOTON*/
+.btn2{
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+    margin-top: 100px;
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:481px) and (max-width:768px)
+{
+*{
+    padding: 0;
+    margin:0;
+}
+/*BODY*/
+.fondo{
+    background-image: url(./imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CONTENEDOR DE MAIN*/    
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*CAJA1*/
+.caja1{
+    font-size: 20px;
+    width: 90%;
+    height: 70px;
+    margin-left: 15px;
+    padding-top: 50px;
+    color: rgba(128, 128, 128, 0.598);
+
+}
+/*CAJA2*/
+.caja2{
+    font-size: 30px;
+    margin-left: 15px;
+    width: 90%;
+}
+/*CAJA3*/
+.caja3{
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+}
+/*CAJA4*/
+.caja4{
+    width: 95%;
+    margin-left: 15px;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+/*CAJA5*/
+.caja5{
+    width: 95%;
+    margin-left: 15px;
+    font-size: 25px;
+    padding-top: 5px;
+}
+/*CAJA6*/
+.caja6{
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+/*CAJA7*/
+.caja7{
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 40px;
+}
+/*PARRAFO DE CAJA7*/
+.pdevolucion{
+    color: rgba(128, 128, 128, 0.598);
+}
+/*CAJA8*/
+.caja8{
+    width: 80%;
+    margin-left: 15px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+
+}/*CAJA9*/
+.caja9{
+    width: 100%;
+    padding-top: 15px;
+}
+/*BOTON*/
+.btn2{
+    width: 50%;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+    margin-top: 100px;
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:769px) and (max-width:1024px)
+{
+*{
+    padding: 0;
+    margin:0;
+}
+/*BODY*/
+.fondo{
+    background-image: url(./imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CONTENEDOR DE MAIN*/    
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*CAJA1*/
+.caja1{
+    font-size: 20px;
+    width: 90%;
+    height: 70px;
+    margin-left: 15px;
+    padding-top: 50px;
+    color: rgba(128, 128, 128, 0.598);
+
+}
+/*CAJA2*/
+.caja2{
+    font-size: 30px;
+    margin-left: 15px;
+    width: 90%;
+}
+/*CAJA3*/
+.caja3{
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+}
+/*CAJA4*/
+.caja4{
+    width: 95%;
+    margin-left: 15px;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+/*CAJA5*/
+.caja5{
+    width: 95%;
+    margin-left: 15px;
+    font-size: 25px;
+    padding-top: 5px;
+}
+/*CAJA6*/
+.caja6{
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+/*CAJA7*/
+.caja7{
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 40px;
+}
+/*PARRAFO DE CAJA7*/
+.pdevolucion{
+    color: rgba(128, 128, 128, 0.598);
+}
+/*CAJA8*/
+.caja8{
+    width: 80%;
+    margin-left: 15px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+
+}/*CAJA9*/
+.caja9{
+    width: 100%;
+    padding-top: 15px;
+}
+/*BOTON*/
+.btn2{
+    width: 50%;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 250px;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+    margin-top: 100px;
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:1025px) and (max-width:1500px)
+{
+*{
+    padding: 0;
+    margin:0;
+}
+/*BODY*/
+.fondo{
+    background-image: url(./imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+    background-color: black;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CONTENEDOR DE MAIN*/    
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*CAJA1*/
+.caja1{
+    font-size: 20px;
+    width: 90%;
+    height: 70px;
+    margin-left: 15px;
+    padding-top: 50px;
+    color: rgba(128, 128, 128, 0.598);
+
+}
+/*CAJA2*/
+.caja2{
+    font-size: 30px;
+    margin-left: 15px;
+    width: 90%;
+}
+/*CAJA3*/
+.caja3{
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+}
+/*CAJA4*/
+.caja4{
+    width: 95%;
+    margin-left: 15px;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+/*CAJA5*/
+.caja5{
+    width: 95%;
+    margin-left: 15px;
+    font-size: 25px;
+    padding-top: 5px;
+}
+/*CAJA6*/
+.caja6{
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+/*CAJA7*/
+.caja7{
+    width: 95%;
+    margin-left: 15px;
+    padding-top: 40px;
+}
+/*PARRAFO DE CAJA7*/
+.pdevolucion{
+    color: rgba(128, 128, 128, 0.598);
+}
+/*CAJA8*/
+.caja8{
+    width: 80%;
+    margin-left: 15px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+
+}/*CAJA9*/
+.caja9{
+    width: 100%;
+    padding-top: 15px;
+}
+/*BOTON*/
+.btn2{
+    width: 50%;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 370px;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+    margin-top: 100px;
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}

@@ -1,0 +1,427 @@
+@media (max-width:480px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CAJA DEL TITULO*/
+.titulo{
+    padding-top: 80px;
+    width: 100%;
+}
+/*TITULO*/
+.titulo1{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 10px;
+    color: black;
+    font-size: 30px;
+}
+/*PARRAFO DE ABAJO DEL TITULO*/
+p{
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.78);
+    margin-left: 10px;
+}
+/*CONTENEDOR DE CARDS*/
+.flex-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+/*CARDS*/
+.card{
+    border: 1px solid rgb(199, 199, 199);
+    margin: 5px;
+}
+/*CONTENEDOR DENTRO DE CARDS*/
+.card-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(199, 199, 199);
+}
+/*SOMBREADO Y EFECTO DE CARD*/
+.card-container:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+}
+/*BODY DE CARD*/
+.card-body{
+    width: 210px;
+}
+/*TITULO DE CARD*/
+h6{
+    text-align: center;
+}
+/*TEXTO DE CARD*/
+.card-text{
+    width: 180px;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:481px) and (max-width:768px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CAJA DEL TITULO*/
+.titulo{
+    padding-top: 80px;
+    width: 100%;
+}
+/*TITULO*/
+.titulo1{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 10px;
+    color: black;
+    font-size: 30px;
+}
+/*PARRAFO DE ABAJO DEL TITULO*/
+p{
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.78);
+    margin-left: 10px;
+}
+/*CONTENEDOR DE CARDS*/
+.flex-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+/*CARDS*/
+.card{
+    border: 1px solid rgb(199, 199, 199);
+    margin: 5px;
+}
+/*CONTENEDOR DENTRO DE CARDS*/
+.card-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(199, 199, 199);
+}
+/*SOMBREADO Y EFECTO DE CARD*/
+.card-container:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+}
+/*BODY DE CARD*/
+.card-body{
+    width: 210px;
+}
+/*TITULO DE CARD*/
+h6{
+    text-align: center;
+}
+/*TEXTO DE CARD*/
+.card-text{
+    width: 180px;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:769px) and (max-width:1024px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CAJA DEL TITULO*/
+.titulo{
+    padding-top: 80px;
+    width: 100%;
+}
+/*TITULO*/
+.titulo1{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 10px;
+    color: black;
+    font-size: 30px;
+}
+/*PARRAFO DE ABAJO DEL TITULO*/
+p{
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.78);
+    margin-left: 10px;
+}
+/*CONTENEDOR DE CARDS*/
+.flex-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+/*CARDS*/
+.card{
+    border: 1px solid rgb(199, 199, 199);
+    margin: 50px;
+}
+/*CONTENEDOR DENTRO DE CARDS*/
+.card-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+/*SOMBREADO Y EFECTO DE CARD*/
+.card-container:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+}
+/*BODY DE CARD*/
+.card-body{
+    width: 210px;
+}
+/*TITULO DE CARD*/
+h6{
+    text-align: center;
+}
+/*TEXTO DE CARD*/
+.card-text{
+    width: 180px;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:1025px) and (max-width:1500px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CAJA DEL TITULO*/
+.titulo{
+    padding-top: 80px;
+    width: 100%;
+}
+/*TITULO*/
+.titulo1{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 10px;
+    color: black;
+    font-size: 30px;
+}
+/*PARRAFO DE ABAJO DEL TITULO*/
+p{
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.78);
+    margin-left: 10px;
+}
+/*CONTENEDOR DE CARDS*/
+.flex-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+/*CARDS*/
+.card{
+    border: 1px solid rgb(199, 199, 199);
+    margin:50px;
+}
+/*CONTENEDOR DENTRO DE CARDS*/
+.card-container{
+    
+    width: 100%;
+}
+/*SOMBREADO Y EFECTO DE CARD*/
+.card-container:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+}
+/*BODY DE CARD*/
+.card-body{
+    width: 100%;
+}
+/*TITULO DE CARD*/
+h6{
+    text-align: center;
+}
+/*TEXTO DE CARD*/
+.card-text{
+    width: 100%;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}

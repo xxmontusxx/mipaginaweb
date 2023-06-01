@@ -1,0 +1,577 @@
+@media (max-width:480px)
+{
+*{
+    margin: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+    background-color: black;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*MAIN*/
+main{
+    background-color: rgb(36, 35, 35);
+}
+/*CONTENEDOR DE TABLA*/
+.tabla-container{
+    width: 100%;
+    background-color: black;
+}
+/*TABLA*/
+table{
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    height: 300px;
+    margin: auto;
+    width: 100%;
+
+}
+/*DIAS DE TABLA*/
+.thead{
+    text-align: center;
+    margin: 0;
+    border-bottom: solid 5px #0F362D;
+    background-color: #246355;
+}
+/*RESALTAR CASILLAS CON EL CURSOR*/
+tr:hover{
+    background-color: #369681;
+    color: white;
+
+}
+/*LETRAS DE DIAS*/
+th{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;  
+}
+/*LETRAS DE HORARIO*/
+td{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center; 
+    color: white; 
+}
+/*CONTAINER DE CAJA FINAL*/
+.containerend{
+    display: flex;
+}
+/*CAJA FINAL*/
+.cajaend{
+    width: 100%;
+    height:500px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    border-right: 1px solid black;
+    
+}
+/*TITULO END*/
+.cajaend0{
+    width: 100%;
+    color: white;
+}
+/*TITULO CAJA END*/
+.titulocajaend{
+    font-size: 40px;
+    text-align:center;
+}
+/*PARRAFOS CAJA END*/
+.pcajaend{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/*ICONOS CAJA END*/
+.pimagen{
+    float: center;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:481px) and (max-width:768px)
+{
+*{
+    margin: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+    background-color: black;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*MAIN*/
+main{
+    background-color: rgb(36, 35, 35);
+}
+/*CONTENEDOR DE TABLA*/
+.tabla-container{
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+}
+/*TABLA*/
+table{
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    height: 300px;
+    margin: auto;
+    width: 30%;
+}
+/*DIAS DE TABLA*/
+.thead{
+    text-align: center;
+    margin: 0;
+    border-bottom: solid 5px #0F362D;
+    background-color: #246355;
+}
+/*RESALTAR CASILLAS CON EL CURSOR*/
+tr:hover{
+    background-color: #369681;
+    color: white;
+
+}
+/*LETRAS DE DIAS*/
+th{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;  
+}
+/*LETRAS DE HORARIO*/
+td{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center; 
+    color: white; 
+}
+/*CONTAINER DE CAJA FINAL*/
+.containerend{
+    display: flex;
+}
+/*CAJA FINAL*/
+.cajaend{
+    width: 100%;
+    height:500px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    border-right: 1px solid black;
+    
+}
+/*TITULO END*/
+.cajaend0{
+    width: 100%;
+    color: white;
+}
+/*TITULO CAJA END*/
+.titulocajaend{
+    font-size: 40px;
+    text-align:center;
+}
+/*PARRAFOS CAJA END*/
+.pcajaend{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/*ICONOS CAJA END*/
+.pimagen{
+    float: center;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:769px) and (max-width:1024px)
+{
+*{
+    margin: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+    background-color: black;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*MAIN*/
+main{
+    background-color: rgb(36, 35, 35);
+}
+/*CONTENEDOR DE TABLA*/
+.tabla-container{
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+}
+/*TABLA*/
+table{
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    height: 300px;
+    margin: auto;
+    width: 30%;
+}
+/*DIAS DE TABLA*/
+.thead{
+    text-align: center;
+    margin: 0;
+    border-bottom: solid 5px #0F362D;
+    background-color: #246355;
+}
+/*RESALTAR CASILLAS CON EL CURSOR*/
+tr:hover{
+    background-color: #369681;
+    color: white;
+
+}
+/*LETRAS DE DIAS*/
+th{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;  
+}
+/*LETRAS DE HORARIO*/
+td{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center; 
+    color: white; 
+}
+/*CONTAINER DE CAJA FINAL*/
+.containerend{
+    display: flex;
+}
+/*CAJA FINAL*/
+.cajaend{
+    width: 100%;
+    height:500px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+/*TITULO END*/
+.cajaend0{
+    width: 100%;
+    color: white;
+}
+/*CONTACTO*/
+.cajaend1{
+    padding-top: 100px;
+    margin-right: 90px;
+
+}
+/*EMAIL*/
+.cajaend2{
+    padding-top: 100px;
+    margin-left: 90px;
+
+}
+/*TITULO CAJA END*/
+.titulocajaend{
+    font-size: 40px;
+    text-align:center;
+}
+/*PARRAFOS CAJA END*/
+.pcajaend{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/*ICONOS CAJA END*/
+.pimagen{
+    float: center;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:1025px) and (max-width:1500px)
+{
+*{
+    margin: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+    background-color: black;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*MAIN*/
+main{
+    background-color: rgb(36, 35, 35);
+}
+/*CONTENEDOR DE TABLA*/
+.tabla-container{
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+}
+/*TABLA*/
+table{
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    height: 300px;
+    margin: auto;
+    width: 30%;
+}
+/*DIAS DE TABLA*/
+.thead{
+    text-align: center;
+    margin: 0;
+    border-bottom: solid 5px #0F362D;
+    background-color: #246355;
+    
+}
+/*RESALTAR CASILLAS CON EL CURSOR*/
+tr:hover{
+    background-color: #369681;
+    color: white;
+
+}
+/*LETRAS DE DIAS*/
+th{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;  
+}
+/*LETRAS DE HORARIO*/
+td{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center; 
+    color: white; 
+}
+/*CONTAINER DE CAJA FINAL*/
+.containerend{
+    display: flex;
+}
+/*CAJA FINAL*/
+.cajaend{
+    width: 100%;
+    height:500px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+/*TITULO END*/
+.cajaend0{
+    width: 100%;
+}
+/*CONTACTO*/
+.cajaend1{
+    padding-top: 100px;
+    margin-right: 90px;
+
+}
+/*EMAIL*/
+.cajaend2{
+    padding-top: 100px;
+    margin-left: 90px;
+
+}
+/*TITULO CAJA END*/
+.titulocajaend{
+    font-size: 40px;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+}
+/*PARRAFOS CAJA END*/
+.pcajaend{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/*ICONOS CAJA END*/
+.pimagen{
+    float: center;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}

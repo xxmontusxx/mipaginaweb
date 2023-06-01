@@ -1,0 +1,527 @@
+@media (max-width:480px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+    background-color: black;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CONTAINER DE FORMULARIO*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+/*CAJA DE TITULO*/
+.caja1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 100%;
+    height: 200px;
+    padding-top: 150px;
+    font-size: 40px;
+    text-align: center;
+}
+/*CAJA DE FORMULARIO*/
+.caja{
+    width: 100%;
+    padding-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+/*CAJA DE BOTON DE ENVIAR*/
+.cajaradio{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*CONTAINER DE CAJA FINAL*/
+.containerend{
+    display: flex;
+}
+/*CAJA FINAL*/
+.cajaend{
+    width: 100%;
+    height:500px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    border-right: 1px solid black;
+}
+/*TITULO END*/
+.cajaend0{
+    width: 100%;
+    padding-top: 100px;
+    color: rgb(36, 35, 35);
+}
+/*TITULO CAJA END*/
+.titulocajaend{
+    font-size: 40px;
+    text-align:center;
+}
+/*PARRAFOS CAJA END*/
+.pcajaend{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/*ICONOS CAJA END*/
+.pimagen{
+    float: center;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:481px) and (max-width:768px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+    background-color: black;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CONTAINER DE FORMULARIO*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+/*CAJA DE TITULO*/
+.caja1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 100%;
+    height: 200px;
+    padding-top: 150px;
+    font-size: 40px;
+    text-align: center;
+}
+/*CAJA DE FORMULARIO*/
+.caja{
+    width: 100%;
+    padding-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+/*CAJA DE BOTON DE ENVIAR*/
+.cajaradio{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*CONTAINER DE CAJA FINAL*/
+.containerend{
+    display: flex;
+}
+/*CAJA FINAL*/
+.cajaend{
+    width: 100%;
+    height:500px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    border-right: 1px solid black;
+    
+}
+/*TITULO END*/
+.cajaend0{
+    width: 100%;
+    padding-top: 100px;
+    color: rgb(36, 35, 35);
+}
+/*TITULO CAJA END*/
+.titulocajaend{
+    font-size: 40px;
+    text-align:center;
+}
+/*PARRAFOS CAJA END*/
+.pcajaend{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/*ICONOS CAJA END*/
+.pimagen{
+    float: center;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:769px) and (max-width:1024px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*CAJA DEL HEADER*/
+    .cajaheader{
+        width: 100%;
+        background-color: black;
+    }
+    /*BARRA DE NAVEGACION*/
+    .navbar-toggler{
+        background-color: black;
+        color: black;
+    }
+    /*CONTAINER DE FORMULARIO*/
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    /*CAJA DE TITULO*/
+    .caja1{
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        width: 100%;
+        height: 200px;
+        padding-top: 150px;
+        font-size: 40px;
+        text-align: center;
+    }
+    /*CAJA DE FORMULARIO*/
+    .caja{
+        width: 100%;
+        padding-top: 50px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+    /*CAJA DE BOTON DE ENVIAR*/
+    .cajaradio{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    /*CONTAINER DE CAJA FINAL*/
+    .containerend{
+        display: flex;
+    }
+    /*CAJA FINAL*/
+    .cajaend{
+        width: 100%;
+        height:500px;
+        background-color: rgb(36, 35, 35);
+        color: white;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        line-height: 100px;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; 
+        
+    }
+    /*TITULO END*/
+    .cajaend0{
+        width: 100%;
+        padding-top: 100px;
+        color: rgb(36, 35, 35);
+    }
+    /*CONTACTO*/
+    .cajaend1{
+        padding-top: 100px;
+        margin-right: 90px;
+    
+    }
+    /*EMAIL*/
+    .cajaend2{
+        padding-top: 100px;
+        margin-left: 90px;
+    
+    }
+    /*TITULO CAJA END*/
+    .titulocajaend{
+        font-size: 40px;
+        text-align:center;
+    }
+    /*PARRAFOS CAJA END*/
+    .pcajaend{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    /*ICONOS CAJA END*/
+    .pimagen{
+        float: center;
+    }
+    /*FOOTER*/
+    .pie-pagina{
+        width: 100%;
+        background-color:rgb(36, 35, 35);
+    }
+    /*FOOTER Y CONTENEDOR*/
+    .pie-pagina .grupo-footer{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        padding: 45px 0px;
+    }
+    /*TITULOS*/
+    .caja-footer{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    
+    }
+    /*REDES SOCIALES*/
+    .red-social{
+        margin-right: 5px;
+    }
+    /*COPY DE EMPRESA*/
+    .grupo-footer2{
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.092);
+        padding: 15px 10px;
+    }
+    /*TEXTO DE FOOTER*/
+    .pfooter{
+        text-align: justify;
+        font-size: 10px;
+        color: white;
+    }
+}
+@media (min-width:1025px) and (max-width:1500px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*CAJA DEL HEADER*/
+    .cajaheader{
+        width: 100%;
+        background-color: black;
+    }
+    /*BARRA DE NAVEGACION*/
+    .navbar-toggler{
+        background-color: black;
+        color: black;
+    }
+    /*CONTAINER DE FORMULARIO*/
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    /*CAJA DE TITULO*/
+    .caja1{
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        width: 100%;
+        height: 200px;
+        padding-top: 150px;
+        font-size: 40px;
+        text-align: center;
+    }
+    /*CAJA DE FORMULARIO*/
+    .caja{
+        width: 100%;
+        padding-top: 50px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+    /*CAJA DE BOTON DE ENVIAR*/
+    .cajaradio{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    /*CONTAINER DE CAJA FINAL*/
+    .containerend{
+        display: flex;
+    }
+    /*CAJA FINAL*/
+    .cajaend{
+        width: 100%;
+        height:500px;
+        background-color: rgb(36, 35, 35);
+        color: white;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        line-height: 100px;
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;  
+    }
+    /*TITULO END*/
+    .cajaend0{
+        width: 100%;
+        padding-top: 100px;
+        color: rgb(36, 35, 35);
+    }
+    /*CONTACTO*/
+    .cajaend1{
+        padding-top: 100px;
+        margin-right: 90px;
+    
+    }
+    /*EMAIL*/
+    .cajaend2{
+        padding-top: 100px;
+        margin-left: 90px;
+    
+    }
+
+    /*TITULO CAJA END*/
+    .titulocajaend{
+        font-size: 40px;
+        text-align:center;
+    }
+    /*PARRAFOS CAJA END*/
+    .pcajaend{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    /*ICONOS CAJA END*/
+    .pimagen{
+        float: center;
+    }
+    /*FOOTER*/
+    .pie-pagina{
+        width: 100%;
+        background-color:rgb(36, 35, 35);
+    }
+    /*FOOTER Y CONTENEDOR*/
+    .pie-pagina .grupo-footer{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        padding: 45px 0px;
+    }
+    /*TITULOS*/
+    .caja-footer{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    
+    }
+    /*REDES SOCIALES*/
+    .red-social{
+        margin-right: 5px;
+    }
+    /*COPY DE EMPRESA*/
+    .grupo-footer2{
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.092);
+        padding: 15px 10px;
+    }
+    /*TEXTO DE FOOTER*/
+    .pfooter{
+        text-align: justify;
+        font-size: 10px;
+        color: white;
+    }
+}

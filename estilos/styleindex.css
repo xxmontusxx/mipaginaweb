@@ -1,0 +1,583 @@
+@media (min-width:300px) and (max-width:480px)
+{
+*{
+    padding: 0;
+    margin:0;
+}
+/*BODY*/
+.fondo{
+    background-image: url(./imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CAROUSEL DE INICIO*/
+.carousel{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*CONTENEDOR DE LAS CARDS*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*TITULO*/
+h1{
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+}
+/*CARDS*/
+.card{
+    margin: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+/*EFECTO DE CARDS*/
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+}
+/*TEXTO DE LAS CARDS*/
+.card-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0%;
+    font-family: 'Kanit', sans-serif;
+}
+/*PRECIO DE LAS CARDS*/
+.card-precio{
+    text-align: center;
+}
+/*TEXTO DE CARDS*/
+.card-cuotas{
+    font-size: 15px;
+    text-align: center;
+}
+/*CONTENEDOR DE ENVIOS Y FORMAS DE PAGO*/
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+/*ULTIMAS DOS CARDS*/
+.card2{
+    margin: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+}
+/*SOMBREADO DE CARDS*/
+.card2:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+}
+/*TITULO DE ULTIMAS CARDS*/
+.card-titulo2{
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*TEXTO DE ULTIMAS CARDS*/
+.card-text2{
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 16px;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+    margin-top: 100px;
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:481px) and (max-width:768px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*BODY*/
+    .fondo{
+        background-image: url(./imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*CAJA DEL HEADER*/
+    .cajaheader{
+        width: 100%;
+    }
+    /*BARRA DE NAVEGACION*/
+    .navbar-toggler{
+        background-color: black;
+        color: black;
+    }
+    /*CAROUSEL DE INICIO*/
+    .carousel{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    /*CONTENEDOR DE LAS CARDS*/
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /*CONTENEDOR DE TITULO*/
+    .titulo-container{
+        width: 100%;
+    }
+    /*TITULO*/
+    h1{
+        text-align: center;
+        font-family: 'Ysabeau', sans-serif;
+    }
+    /*CARDS*/
+    .card{
+        margin: 10px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    }
+    /*EFECTO DE CARDS*/
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%)
+    }
+    /*TEXTO DE LAS CARDS*/
+    .card-text{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin: 0%;
+        font-family: 'Kanit', sans-serif;
+    }
+    /*PRECIO DE LAS CARDS*/
+    .card-precio{
+        text-align: center;
+    }
+    /*TEXTO DE CARDS*/
+    .card-cuotas{
+        font-size: 15px;
+        text-align: center;
+    }
+    /*CONTENEDOR DE ENVIOS Y FORMAS DE PAGO*/
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    /*ULTIMAS DOS CARDS*/
+    .card2{
+        margin: 10px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        border-radius: 5px;
+    }
+    /*SOMBREADO DE CARDS*/
+    .card2:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%)
+    }
+    /*TITULO DE ULTIMAS CARDS*/
+    .card-titulo2{
+        text-align: center;
+        font-family: 'Ysabeau', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /*TEXTO DE ULTIMAS CARDS*/
+    .card-text2{
+        text-align: center;
+        font-family: 'Ysabeau', sans-serif;
+        font-size: 16px;
+    }
+    /*FOOTER*/
+    .pie-pagina{
+        width: 100%;
+        background-color:rgb(36, 35, 35);
+        margin-top: 100px;
+    }
+    /*FOOTER Y CONTENEDOR*/
+    .pie-pagina .grupo-footer{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        padding: 45px 0px;
+    }
+    /*TITULOS*/
+    .caja-footer{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    
+    }
+    /*REDES SOCIALES*/
+    .red-social{
+        margin-right: 5px;
+    }
+    /*COPY DE EMPRESA*/
+    .grupo-footer2{
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.092);
+        padding: 15px 10px;
+    }
+    /*TEXTO DE FOOTER*/
+    .pfooter{
+        text-align: justify;
+        font-size: 10px;
+        color: white;
+    }
+}
+@media (min-width:769px) and (max-width:1024px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*BODY*/
+    .fondo{
+        background-image: url(./imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*CAJA DEL HEADER*/
+    .cajaheader{
+        width: 100%;
+    }
+    /*BARRA DE NAVEGACION*/
+    .navbar-toggler{
+        background-color: black;
+        color: black;
+    }
+    /*CAROUSEL DE INICIO*/
+    .carousel{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    /*TEXTO DE CAROUSEL*/
+    .pdecarousel{
+        font-size: 70px;
+        text-align: center;
+        padding-bottom: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgba(255, 255, 255, 0.393)
+    }
+    /*CONTENEDOR DE LAS CARDS*/
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /*CONTENEDOR DE TITULO*/
+    .titulo-container{
+        width: 100%;
+    }
+    /*TITULO*/
+    h1{
+        text-align: center;
+        font-family: 'Ysabeau', sans-serif;
+    }
+    /*CARDS*/
+    .card{
+        margin: 10px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    }
+    /*EFECTO DE CARDS*/
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%)
+    }
+    /*TEXTO DE LAS CARDS*/
+    .card-text{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin: 0%;
+        font-family: 'Kanit', sans-serif;
+    }
+    /*PRECIO DE LAS CARDS*/
+    .card-precio{
+        text-align: center;
+    }
+    /*TEXTO DE CARDS*/
+    .card-cuotas{
+        font-size: 15px;
+        text-align: center;
+    }
+    /*CONTENEDOR DE ENVIOS Y FORMAS DE PAGO*/
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    /*ULTIMAS DOS CARDS*/
+    .card2{
+        margin: 10px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        border-radius: 5px;
+    }
+    /*SOMBREADO DE CARDS*/
+    .card2:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%)
+    }
+    /*TITULO DE ULTIMAS CARDS*/
+    .card-titulo2{
+        text-align: center;
+        font-family: 'Ysabeau', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /*TEXTO DE ULTIMAS CARDS*/
+    .card-text2{
+        text-align: center;
+        font-family: 'Ysabeau', sans-serif;
+        font-size: 16px;
+    }
+    /*FOOTER*/
+    .pie-pagina{
+        width: 100%;
+        background-color:rgb(36, 35, 35);
+        margin-top: 100px;
+    }
+    /*FOOTER Y CONTENEDOR*/
+    .pie-pagina .grupo-footer{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        padding: 45px 0px;
+    }
+    /*TITULOS*/
+    .caja-footer{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    
+    }
+    /*REDES SOCIALES*/
+    .red-social{
+        margin-right: 5px;
+    }
+    /*COPY DE EMPRESA*/
+    .grupo-footer2{
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.092);
+        padding: 15px 10px;
+    }
+    /*TEXTO DE FOOTER*/
+    .pfooter{
+        text-align: justify;
+        font-size: 10px;
+        color: white;
+    }
+
+
+}
+@media (min-width:1025px) and (max-width:1500px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*BODY*/
+    .fondo{
+        background-image: url(./imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*CAJA DEL HEADER*/
+    .cajaheader{
+        width: 100%;
+    }
+    /*BARRA DE NAVEGACION*/
+    .navbar-toggler{
+        background-color: black;
+        color: black;
+    }
+    /*CAROUSEL DE INICIO*/
+    .carousel{
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+    /*TEXTO DE CAROUSEL*/
+    .pdecarousel{
+        font-size: 70px;
+        text-align: center;
+        padding-bottom: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgba(255, 255, 255, 0.393)
+    }
+    /*CONTENEDOR DE LAS CARDS*/
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /*CONTENEDOR DE TITULO*/
+    .titulo-container{
+        width: 100%;
+    }
+    /*TITULO*/
+    h1{
+        text-align: center;
+        font-family: 'Ysabeau', sans-serif;
+    }
+    /*CARDS*/
+    .card{
+        margin: 10px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    }
+    /*EFECTO DE CARDS*/
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%)
+    }
+    /*TEXTO DE LAS CARDS*/
+    .card-text{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin: 0%;
+        font-family: 'Kanit', sans-serif;
+    }
+    /*PRECIO DE LAS CARDS*/
+    .card-precio{
+        text-align: center;
+    }
+    /*TEXTO DE CARDS*/
+    .card-cuotas{
+        font-size: 15px;
+        text-align: center;
+    }
+    /*CONTENEDOR DE ENVIOS Y FORMAS DE PAGO*/
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    /*ULTIMAS DOS CARDS*/
+    .card2{
+        margin: 10px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        border-radius: 5px;
+    }
+    /*SOMBREADO DE CARDS*/
+    .card2:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%)
+    }
+    /*TITULO DE ULTIMAS CARDS*/
+    .card-titulo2{
+        text-align: center;
+        font-family: 'Ysabeau', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /*TEXTO DE ULTIMAS CARDS*/
+    .card-text2{
+        text-align: center;
+        font-family: 'Ysabeau', sans-serif;
+        font-size: 16px;
+    }
+    /*FOOTER*/
+    .pie-pagina{
+        width: 100%;
+        background-color:rgb(36, 35, 35);
+        margin-top: 100px;
+    }
+    /*FOOTER Y CONTENEDOR*/
+    .pie-pagina .grupo-footer{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        padding: 45px 0px;
+    }
+    /*TITULOS*/
+    .caja-footer{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    
+    }
+    /*REDES SOCIALES*/
+    .red-social{
+        margin-right: 5px;
+    }
+    /*COPY DE EMPRESA*/
+    .grupo-footer2{
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.092);
+        padding: 15px 10px;
+    }
+    /*TEXTO DE FOOTER*/
+    .pfooter{
+        text-align: justify;
+        font-size: 10px;
+        color: white;
+    }
+}
+

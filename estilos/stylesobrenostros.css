@@ -1,0 +1,872 @@
+@media (max-width:480px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CAJA DE TITULOS DE INICIO*/
+.caja1{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(240, 237, 237, 0.055);
+}
+/*TEXTO DE CAJA1*/
+.pcaja1{
+    color: rgb(197, 191, 5);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    padding-top: 60px;
+    margin-left: 10px;
+}
+/*TITULO DE CAJA1*/
+.hcaja1{
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*CAJA DE TEXTOS DE ABAJO*/
+.caja2{
+    width: 100%;
+}
+/*TEXTO DE CAJA2*/
+.p1caja2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(197, 191, 5);
+    margin-left: 10px;
+}
+/*TITULO DE CAJA2*/
+.h3caja2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+/*TEXTO*/
+.pmate{
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.78);
+}
+/*TEXTO*/
+p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+/*TITULO CAJA3*/
+.h6caja3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    padding-top: 80px;
+}
+/*IMAGEN DE CAJA3*/
+.caja3{
+    width: 100%;
+    text-align: center;
+}
+/*VIDEO CAJA5*/
+.caja5{
+    width: 100%;
+    text-align: center;
+}
+/*TEXTO CAJA6*/
+.caja6{
+    text-align: center;
+}
+/*BOTON DE DESCARGA*/
+.btn{
+    background-color: blue;
+    padding: 15px 25px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 30px;
+}
+/*EFECTO DE BOTON*/
+.btn:hover{
+    background-color: rgb(71, 152, 227);
+}
+/*CAJA FINAL*/
+.cajafinal{
+    width: 100%;
+    background-image: url(./imagenes/local2.jpg);
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*CONTENEDOR DE CAJA FINAL*/
+.containerfinal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+/*TITULO CAJA FINAL*/
+.cajafinal1{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 140px;
+    font-size: 10px;
+    padding-top:60px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/*AÑOS*/
+.cajafinal2{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+/*CLIENTES*/
+.cajafinal3{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+/*VENTAS*/
+.cajafinal4{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 190px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+/*CALIDAD ASEGURADA*/
+.cajafinal5{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+/*CAJA FINAL*/
+.cajafinal6{
+    color: white;
+    width: 100%;
+}
+/*NOMERO DE CAJA FINAL*/
+.numerosfinal{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*TEXTO DE CAJA FINAL*/
+.palabrasfinales{
+    font-family: 'Montserrat', sans-serif;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:481px) and (max-width:768px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CONTENEDOR DE PAGINA*/
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*COLOR DE MAIN*/
+main{
+    background-color: rgba(128, 128, 128, 0.257);
+}
+/*CAJA DE TITULOS DE INICIO*/
+.caja1{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(240, 237, 237, 0.055);
+}
+/*TEXTO DE CAJA1*/
+.pcaja1{
+    color: rgb(197, 191, 5);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    padding-top: 60px;
+    margin-left: 10px;
+}
+/*TITULO DE CAJA1*/
+.hcaja1{
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*CAJA DE TEXTOS DE ABAJO*/
+.caja2{
+    width: 100%;
+}
+/*TEXTO DE CAJA2*/
+.p1caja2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(197, 191, 5);
+    margin-left: 10px;
+}
+/*TITULO DE CAJA2*/
+.h3caja2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+/*TEXTO*/
+.pmate{
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.78);
+}
+/*TEXTO*/
+p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+/*TITULO CAJA3*/
+.h6caja3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    padding-top: 80px;
+}
+/*IMAGEN DE CAJA3*/
+.caja3{
+    width: 100%;
+    text-align: center;
+}
+/*VIDEO CAJA5*/
+.caja5{
+    width: 100%;
+    text-align: center;
+}
+/*TEXTO CAJA6*/
+.caja6{
+    text-align: center;
+}
+/*BOTON DE DESCARGA*/
+.btn{
+    background-color: blue;
+    padding: 15px 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+/*EFECTO DE BOTON*/
+.btn:hover{
+    background-color: rgb(71, 152, 227);
+}
+/*CAJA FINAL*/
+.cajafinal{
+    width: 100%;
+    background-image: url(./imagenes/local2.jpg);
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*CONTENEDOR DE CAJA FINAL*/
+.containerfinal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+/*TITULO CAJA FINAL*/
+.cajafinal1{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 140px;
+    font-size: 10px;
+    padding-top:60px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/*AÑOS*/
+.cajafinal2{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+/*CLIENTES*/
+.cajafinal3{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+/*VENTAS*/
+.cajafinal4{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 190px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+/*CALIDAD ASEGURADA*/
+.cajafinal5{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+/*CAJA FINAL*/
+.cajafinal6{
+    color: white;
+    width: 100%;
+}
+/*NOMERO DE CAJA FINAL*/
+.numerosfinal{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*TEXTO DE CAJA FINAL*/
+.palabrasfinales{
+    font-family: 'Montserrat', sans-serif;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:769px) and (max-width:1024px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CONTENEDOR DE PAGINA*/
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*COLOR DE MAIN*/
+main{
+    background-color: rgba(128, 128, 128, 0.257);
+}
+/*CAJA DE TITULOS DE INICIO*/
+.caja1{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(240, 237, 237, 0.055);
+}
+/*TEXTO DE CAJA1*/
+.pcaja1{
+    color: rgb(197, 191, 5);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    padding-top: 60px;
+    margin-left: 10px;
+}
+/*TITULO DE CAJA1*/
+.hcaja1{
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*CAJA DE TEXTOS DE ABAJO*/
+.caja2{
+    width: 100%;
+}
+/*TEXTO DE CAJA2*/
+.p1caja2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(197, 191, 5);
+    margin-left: 10px;
+}
+/*TITULO DE CAJA2*/
+.h3caja2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+/*TEXTO*/
+.pmate{
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.78);
+}
+/*TEXTO*/
+p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+/*TITULO CAJA3*/
+.h6caja3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    padding-top: 80px;
+}
+/*IMAGEN DE CAJA3*/
+.caja3{
+    width: 100%;
+    text-align: center;
+}
+/*VIDEO CAJA5*/
+.caja5{
+    width: 100%;
+    text-align: center;
+}
+/*TEXTO CAJA6*/
+.caja6{
+    text-align: center;
+}
+/*BOTON DE DESCARGA*/
+.btn{
+    background-color: blue;
+    padding: 15px 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+/*EFECTO DE BOTON*/
+.btn:hover{
+    background-color: rgb(71, 152, 227);
+}
+/*CAJA FINAL*/
+.cajafinal{
+    width: 100%;
+    background-image: url(./imagenes/local2.jpg);
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*CONTENEDOR DE CAJA FINAL*/
+.containerfinal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+/*TITULO CAJA FINAL*/
+.cajafinal1{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 140px;
+    font-size: 10px;
+    padding-top:60px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/*AÑOS*/
+.cajafinal2{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+/*CLIENTES*/
+.cajafinal3{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+/*VENTAS*/
+.cajafinal4{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 190px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+/*CALIDAD ASEGURADA*/
+.cajafinal5{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+/*CAJA FINAL*/
+.cajafinal6{
+    color: white;
+    width: 100%;
+}
+/*NOMERO DE CAJA FINAL*/
+.numerosfinal{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*TEXTO DE CAJA FINAL*/
+.palabrasfinales{
+    font-family: 'Montserrat', sans-serif;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
+@media (min-width:1025px) and (max-width:1500px)
+{
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CAJA DEL HEADER*/
+.cajaheader{
+    width: 100%;
+}
+/*BARRA DE NAVEGACION*/
+.navbar-toggler{
+    background-color: black;
+    color: black;
+}
+/*CONTENEDOR DE PAGINA*/
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*COLOR DE MAIN*/
+main{
+    background-color: rgba(128, 128, 128, 0.257);
+}
+/*CAJA DE TITULOS DE INICIO*/
+.caja1{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(240, 237, 237, 0.055);
+}
+/*TEXTO DE CAJA1*/
+.pcaja1{
+    color: rgb(197, 191, 5);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    padding-top: 60px;
+    margin-left: 10px;
+}
+/*TITULO DE CAJA1*/
+.hcaja1{
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*CAJA DE TEXTOS DE ABAJO*/
+.caja2{
+    width: 100%;
+}
+/*TEXTO DE CAJA2*/
+.p1caja2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(197, 191, 5);
+    margin-left: 60px;
+}
+/*TITULO DE CAJA2*/
+.h3caja2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60px;
+}
+/*TEXTO*/
+.pmate{
+    margin-left: 60px;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.78);
+}
+/*TEXTO*/
+p{
+    margin-left: 60px;
+    font-size: 15px;
+    margin-right: 60px;
+}
+/*TITULO CAJA3*/
+.h6caja3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60px;
+    padding-top: 80px;
+}
+/*IMAGEN DE CAJA3*/
+.caja3{
+    width: 100%;
+    text-align: center;
+}
+/*VIDEO CAJA5*/
+.caja5{
+    width: 100%;
+    text-align: center;
+}
+/*TEXTO CAJA6*/
+.caja6{
+    text-align: center;
+}
+/*BOTON DE DESCARGA*/
+.btn{
+    background-color: blue;
+    padding: 15px 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+/*EFECTO DE BOTON*/
+.btn:hover{
+    background-color: rgb(71, 152, 227);
+}
+/*CAJA FINAL*/
+.cajafinal{
+    width: 60%;
+    background-image: url(./imagenes/local2.jpg);
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 300px
+}
+/*CONTENEDOR DE CAJA FINAL*/
+.containerfinal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+/*TITULO CAJA FINAL*/
+.cajafinal1{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 140px;
+    font-size: 10px;
+    padding-top:60px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/*AÑOS*/
+.cajafinal2{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+/*CLIENTES*/
+.cajafinal3{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+/*VENTAS*/
+.cajafinal4{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 190px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+/*CALIDAD ASEGURADA*/
+.cajafinal5{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 30px;
+    height: 190px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+/*CAJA FINAL*/
+.cajafinal6{
+    color: white;
+    width: 100%;
+}
+/*NOMERO DE CAJA FINAL*/
+.numerosfinal{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*TEXTO DE CAJA FINAL*/
+.palabrasfinales{
+    font-family: 'Montserrat', sans-serif;
+}
+/*FOOTER*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+/*FOOTER Y CONTENEDOR*/
+.pie-pagina .grupo-footer{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 45px 0px;
+}
+/*TITULOS*/
+.caja-footer{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+/*REDES SOCIALES*/
+.red-social{
+    margin-right: 5px;
+}
+/*COPY DE EMPRESA*/
+.grupo-footer2{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.092);
+    padding: 15px 10px;
+}
+/*TEXTO DE FOOTER*/
+.pfooter{
+    text-align: justify;
+    font-size: 10px;
+    color: white;
+}
+}
